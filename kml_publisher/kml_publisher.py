@@ -102,7 +102,7 @@ class KmlPublisher(Node):
         f = open(kml_filepath, "w")
         f.write(template)
         f.close()
-        self.get_logger().info("Published kml")
+        self.get_logger().info("Published kml to %s" % kml_filepath)
 
     # https://gist.github.com/salmagro/2e698ad4fbf9dae40244769c5ab74434
     def euler_from_quaternion2(self, x, y, z, w):
