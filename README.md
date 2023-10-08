@@ -15,7 +15,7 @@ These topics are available when using the robot_localization package to fuse GPS
  * http://docs.ros.org/en/noetic/api/robot_localization/html/integrating_gps.html
 
 
-## Setup
+## Running
 
 Run the kml_publisher node:
 
