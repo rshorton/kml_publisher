@@ -17,7 +17,9 @@ setup(
     maintainer_email='horton.rscotti@gmail.com',
     description='Publish robot position as KML for display in Google Earth',
     license='Apache License 2.0',
-    tests_require=['pytest'],
+    extras_require={
+        'test': ['pytest'],
+    },  
     entry_points={
         'console_scripts': [
             'publisher = kml_publisher.kml_publisher:main',
